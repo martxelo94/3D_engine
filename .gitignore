@@ -6,6 +6,8 @@
 *.lo
 *.o
 *.obj
+*.pdb
+*.ilk
 
 # Precompiled Headers
 *.gch
@@ -30,3 +32,8 @@
 *.exe
 *.out
 *.app
+
+# Folders
+resources/
+.vs/
+dependencies/
