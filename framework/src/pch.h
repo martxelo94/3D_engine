@@ -53,15 +53,9 @@
 
 // core
 #include "engine/core/types.h"
-#include "engine/core/pool.h"
 #include "engine/core/shapes.h"
 #include "engine/core/input.h"
 #include "engine/core/frame_rate_controller.h"
-#include "engine/core/rtti.h"
-#include "engine/core/object.h"
-#include "engine/core/component.h"
-#include "engine/core/game_object.h"
-#include "engine/core/scene.h"
 // graphics
 #include "engine/graphics/color.h"
 #include "engine/graphics/window.h"
@@ -75,7 +69,8 @@
 #include "engine/graphics/material.h"
 #include "engine/graphics/noise.h"
 #include "engine/graphics/lod_terrain.h"
-#include "engine/graphics/renderer.h"
+// object
+#include "engine/core/object.h"
 // physics
 #include "engine/physics/geometry.h"
 #include "engine/physics/bounding_volume.h"
@@ -84,8 +79,6 @@
 #include "engine/physics/kdtree.h"
 #include "engine/physics/gjk_simplex.h"
 #include "engine/physics/gjk3d.h"
-#include "engine/physics/collider.h"
-#include "engine/physics/rigidbody.h"
 
 // demos
 #include "demo/demo.h"
